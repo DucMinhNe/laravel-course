@@ -1,0 +1,20 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Laravel runtime (only present if you scaffold a real app to follow along)
+/.env
+/storage/*.key
+/public/build
+/public/hot
+/public/storage
+/bootstrap/cache/*.php
+
+# Editor / OS
+.idea
+.vscode
+.DS_Store
+*.log
+
+# Composer
+composer.phar

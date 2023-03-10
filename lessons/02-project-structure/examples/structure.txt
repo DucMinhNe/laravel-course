@@ -1,0 +1,33 @@
+myapp/
+├── app/
+│   ├── Console/            # artisan commands + scheduler (Kernel.php)
+│   ├── Exceptions/         # exception handling
+│   ├── Http/
+│   │   ├── Controllers/    # your controllers
+│   │   ├── Middleware/     # request/response filters
+│   │   └── Kernel.php      # middleware registration
+│   ├── Models/             # Eloquent models (User.php ships by default)
+│   └── Providers/          # service providers (bootstrapping)
+├── bootstrap/
+│   ├── app.php             # creates the application instance
+│   └── cache/              # compiled config & routes
+├── config/                 # one file per subsystem
+├── database/
+│   ├── factories/          # model factories (fake data)
+│   ├── migrations/         # schema definitions
+│   └── seeders/            # seed data
+├── public/
+│   └── index.php           # THE entry point — the only public PHP file
+├── resources/
+│   ├── css/  js/           # frontend assets (built by Vite)
+│   └── views/              # Blade templates
+├── routes/
+│   ├── web.php             # browser routes (session + CSRF)
+│   ├── api.php             # stateless API routes (prefixed /api)
+│   └── console.php         # closure-based artisan commands
+├── storage/                # logs, compiled views, uploads, caches
+├── tests/                  # Feature/ and Unit/
+├── vendor/                 # Composer deps (gitignored)
+├── .env                    # environment config (gitignored)
+├── artisan                 # the CLI entry point
+└── composer.json

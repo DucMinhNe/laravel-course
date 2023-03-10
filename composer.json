@@ -1,0 +1,19 @@
+{
+  "name": "ducminhne/laravel-course",
+  "description": "A full Laravel 10 course — lessons and deep-dive topics, from first route to production.",
+  "type": "project",
+  "keywords": ["laravel", "php", "course", "tutorial", "education"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lê Đức Minh (Marcus)",
+      "homepage": "https://minhle.xyz"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
