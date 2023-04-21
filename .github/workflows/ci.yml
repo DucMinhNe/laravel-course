@@ -17,5 +17,5 @@ jobs:
           php-version: "8.2"
       - name: Lint all PHP files
         run: |
-          find lessons topics -name "*.php" -print0 \
+          find lessons topics -name "*.php" ! -name "*.blade.php" -print0 \
             | xargs -0 -n1 -P4 php -l
