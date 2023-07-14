@@ -6,7 +6,7 @@
 > Built from the material I taught as an IT lecturer at **Cao Thắng Technical
 > College** (Trường Cao đẳng Kỹ thuật Cao Thắng).
 
-![license](https://img.shields.io/badge/license-MIT-green.svg) ![php](https://img.shields.io/badge/php-8.1+-777BB4.svg) ![laravel](https://img.shields.io/badge/laravel-10-FF2D20.svg) ![lessons](https://img.shields.io/badge/lessons-38-blue.svg) ![topics](https://img.shields.io/badge/topics-72-orange.svg) ![status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![license](https://img.shields.io/badge/license-MIT-green.svg) ![php](https://img.shields.io/badge/php-8.1+-777BB4.svg) ![laravel](https://img.shields.io/badge/laravel-10-FF2D20.svg) ![lessons](https://img.shields.io/badge/lessons-38-blue.svg) ![topics](https://img.shields.io/badge/topics-24-orange.svg) ![status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 ---
 
@@ -84,39 +84,43 @@ practise.
 
 ## Deep dives (topics/)
 
-**Eloquent & database** — relationships-deep · scopes · accessors-mutators ·
-attribute-casting · soft-deletes · eager-loading-n1 · chunking-lazy ·
-model-events-observers · database-transactions · raw-queries ·
-query-optimization · indexing · migrations-advanced · pivot-models ·
-polymorphic-relations · pagination · collections · enums
+Reference these once you're comfortable with the lessons.
 
-**Core framework** — service-container · service-providers · facades ·
-dependency-injection · contracts · helpers · macros · pipelines ·
-request-lifecycle · config-caching · route-caching
+### Eloquent & database
+- [Relationships, deeper](./topics/eloquent-relationships-deep/) — `hasManyThrough`, polymorphic, `whereHas`
+- [Query scopes](./topics/eloquent-scopes/) — local & global scopes
+- [Accessors, mutators & casts](./topics/accessors-mutators-casts/)
+- [The N+1 problem & eager loading](./topics/eager-loading-n1/)
+- [Soft deletes](./topics/soft-deletes/)
+- [Database transactions](./topics/database-transactions/)
 
-**HTTP & routing** — middleware-deep · rate-limiting · cors · csrf · signed-urls
-· http-client · cookies · redirects
+### Core framework
+- [The service container](./topics/service-container/)
+- [Service providers](./topics/service-providers/)
+- [Facades](./topics/facades/)
+- [Collections](./topics/collections/)
 
-**Blade & frontend** — blade-components-deep · blade-directives ·
-view-composers · localization · inertia-intro · livewire-intro
+### HTTP & security
+- [Middleware, deeper](./topics/middleware-deep/) — terminable, params, groups
+- [Rate limiting](./topics/rate-limiting/)
+- [Custom validation rules](./topics/validation-rules/)
+- [CSRF & XSS protection](./topics/csrf-and-xss/)
+- [Mass assignment](./topics/mass-assignment/)
 
-**Auth & security** — sanctum-deep · passport-oauth · gates-policies-deep ·
-mass-assignment · sql-injection · xss-protection · owasp-laravel · encryption ·
-hashing
+### Async & infrastructure
+- [Queues, deeper](./topics/queues-deep/) — retries, failed jobs, batching
+- [Caching](./topics/caching/)
+- [Mail & notifications](./topics/notifications-mail/)
+- [Custom artisan commands](./topics/custom-artisan-commands/)
 
-**Validation & files** — validation-rules · custom-validation-rules ·
-form-requests-deep · file-uploads · file-storage · image-handling
+### Testing & quality
+- [Pest](./topics/pest/)
+- [HTTP tests & fakes](./topics/http-tests-deep/)
+- [Database testing](./topics/database-testing/)
 
-**Async & infrastructure** — queues-deep · failed-jobs · job-batching · horizon
-· notifications · mail · broadcasting · websockets · cache-redis ·
-custom-artisan-commands · task-scheduling-deep · octane
-
-**Testing & quality** — phpunit-basics · pest · http-tests · database-testing ·
-mocking · telescope · logging · debugging · error-handling
-
-**DevOps & patterns** — docker-laravel · github-actions-laravel · deployment ·
-ci-cd · repository-pattern · action-classes · dtos · service-classes ·
-api-versioning · best-practices
+### DevOps & patterns
+- [Docker & Laravel Sail](./topics/docker-laravel/)
+- [Action & service classes](./topics/action-classes-and-services/)
 
 ## License
 
